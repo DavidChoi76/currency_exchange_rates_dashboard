@@ -1,5 +1,7 @@
 # Currency Exchange API Retriever App
 
+https://davidchoi76-currency-exchange-rates-dashboard-dashboard-95oenf.streamlit.app/
+
 ## Description
 
 This python tool aims to retrieve currency exchange data by using Fixer API. Parameters for the requests and data 
