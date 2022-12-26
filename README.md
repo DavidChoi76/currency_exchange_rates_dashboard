@@ -1,6 +1,6 @@
 # Currency Exchange API Retriever App
 
-https://davidchoi76-currency-exchange-rates-dashboard-dashboard-95oenf.streamlit.app/
+https://davidchoi76-currency-exchange-rates-dashboard-dashboard-ce1g5a.streamlit.app/
 
 ## Description
 
