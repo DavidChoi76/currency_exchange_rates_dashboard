@@ -113,7 +113,7 @@ def run_dashboard():
     # retrieve latest exchange rates
     st.header("Latest Exchange Rates")
     base_currency_l = st.selectbox("Base currency symbol", st.session_state.all_symbols.keys(),
-                                   index=list(st.session_state.all_symbols.keys()).index("GBP"), key="latest_sb")
+                                   index=list(st.session_state.all_symbols.keys()).index("USD"), key="latest_sb")
     selected_symbols_list_l = st.multiselect("Currency symbols to limit output currencies",
                                              st.session_state.all_symbols.keys(), default=None, key="latest_msb")
     if st.button("Finished selection, retrieve rates"):
@@ -132,7 +132,7 @@ def run_dashboard():
     # retrieve timeseries of exchange rates
     st.header("Exchange Rates Timeseries and Best Months to Trade charts")
     base_currency_t = st.selectbox("Base currency symbol", st.session_state.all_symbols.keys(),
-                                   index=list(st.session_state.all_symbols.keys()).index("GBP"), key="timeseries_sb")
+                                   index=list(st.session_state.all_symbols.keys()).index("USD"), key="timeseries_sb")
     selected_symbols_list_t = st.multiselect("Currency symbols to limit output currencies",
                                              st.session_state.all_symbols.keys(), default=None, key="timeseries_msb")
     st.markdown("""
